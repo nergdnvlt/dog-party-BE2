@@ -32,6 +32,15 @@ header {
   background-repeat:no-repeat;
 }
 
+h1.main-title {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 li.left {
   float: left
 }
@@ -43,4 +52,12 @@ li.right {
 li.right-last {
     float: right;
     margin-right: 15px;
+}
+
+#main-dog {
+  border-radius: 200px;
+  border: 3px solid #37829D;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
