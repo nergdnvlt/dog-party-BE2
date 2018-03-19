@@ -1,0 +1,39 @@
+body {
+  font-weight: lighter;
+  font-family: helvetica;
+}
+
+li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6E92A1;
+}
+
+header {
+  background-image: url("../../images/park.jpg");
+  background-size: cover;
+  height: 500px;
+  margin: 10px;
+  width:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+li.left {
+  float: left
+}
+
+li.right {
+    float: right;
+}
