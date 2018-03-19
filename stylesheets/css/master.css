@@ -32,8 +32,12 @@ header {
   background-repeat:no-repeat;
 }
 
+div.header-box-container {
+  text-align: center;
+}
+
 h1.main-title {
-  font-size: 25px;
+  font-size: 23px;
   font-style: normal;
   font-weight: lighter;
   margin-top: 30px;
@@ -52,6 +56,16 @@ li.right {
 li.right-last {
     float: right;
     margin-right: 15px;
+}
+
+p.header-box {
+  background-color: white;
+  border: 3px solid #37829D;
+  color: #37829D;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 2px;
+  text-align: center;
 }
 
 #main-dog {
